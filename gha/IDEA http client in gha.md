@@ -24,8 +24,15 @@ The zip distribution requires Java 17. Set that up first.
         curl -f -L -o ijhttp.zip "https://jb.gg/ijhttp/latest"
         unzip ijhttp.zip
         ./ijhttp/ijhttp http-client/http-tests.http --report --env-file http-client/http-client.env.json --env local
-
 ```
+[Example `http-tests.yaml` here](https://github.com/favordelivery/recommendations/blob/8cf22a9a5d80c17e5254c5ad4a6c6753b9aa380d/.github/workflows/http-tests.yaml).  
+(NOTE: The SONAR-related secrets are not necessary)
+
 
 ## HTTP files
 Note the files referenced on the last line: the `.http` request file, and the `.json` env file.
+
+# Reference commit
+[Reference commit](https://github.com/favordelivery/recommendations/commit/8cf22a9a5d80c17e5254c5ad4a6c6753b9aa380d).  
+(NOTE: The SONAR-related secrets are not necessary)
+
