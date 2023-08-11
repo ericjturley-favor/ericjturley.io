@@ -1,8 +1,13 @@
 # Running IntelliJ IDEA's HTTP client CLI in GitHub Actions CI
 
-## References
-* https://www.jetbrains.com/help/idea/http-client-cli.html
+IDEA has an [HTTP client](https://github.com/favordelivery/intellij-idea-tips/blob/main/http-client/http-client.md).  
+The client can make assertions (tests).  
+That client can also be run via a CLI.  
+So we can put it in a CI build, then.
 
+## References
+* Overview of the HTTP client: https://github.com/favordelivery/intellij-idea-tips/blob/main/http-client/http-client.md
+* Official docs: https://www.jetbrains.com/help/idea/http-client-cli.html
 
 # GitHub Actions workflow
 
