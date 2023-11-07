@@ -12,6 +12,7 @@ Add this to your "Run Configuration"...
 ```MICRONAUT_ENVIRONMENTS=local```
 
 To see human-readable logging:
+
 <img width="749" alt="image" src="https://github.com/ericjturley-favor/ericjturley.io/assets/137823129/5d05f9ac-af04-4a8d-b26d-e5aabe0ece42">
 
 # Caveat
