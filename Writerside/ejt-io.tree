@@ -3,11 +3,13 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="ejt-io"
-                  name="ericjturley-io" start-page="Local Micronaut Logging.md">
+                  name="ericjturley-io" start-page="local-micronaut-logging.md">
 
-    <toc-element topic="Local Micronaut Logging.md"/>
     <toc-element topic="welcome.md"/>
-    <toc-element toc-title="gha">
-        <toc-element topic="IDEA http client in gha.md"/>
+    <toc-element toc-title="Local Development">
+        <toc-element topic="local-micronaut-logging.md"/>
+    </toc-element>
+    <toc-element toc-title="GitHub Actions">
+        <toc-element topic="idea-http-client-in-gha.md"/>
     </toc-element>
 </instance-profile>
