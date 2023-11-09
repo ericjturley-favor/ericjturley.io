@@ -2,7 +2,11 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <color-preset>soft</color-preset>
+        <primary-color>emerald</primary-color>
+    </variables>
+
     <build-profile instance="ejt-io">
         <variables>
             <noindex-content>true</noindex-content>
