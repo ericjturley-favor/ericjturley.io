@@ -15,11 +15,19 @@ To see human-readable logging:
 
 <img width="749" alt="image" src="https://github.com/ericjturley-favor/ericjturley.io/assets/137823129/5d05f9ac-af04-4a8d-b26d-e5aabe0ece42">
 
-# Caveat
-With this simple step, you're omitting the MDC (Mapped Diagnostic Context) from the logging.
+# Add the entire missing MDC
 
-## Can I have both?
-If you want the MDC data AND human-readable logs locally, you'll need 
+With the previous step, you're omitting the MDC (Mapped Diagnostic Context) from the logging.
+
+Credit: @kwhiteside-favor:
+
+You can add `%mdc` to your pattern to get it. Here's one example
+```
+ MDC: %mdc%n
+```
+
+## Or add specific values
+If you want specific MDC data AND human-readable logs locally, you'll need 
 * to KNOW what objects/fields in the MDC you want to see
 * to adjust the appender pattern
 
@@ -29,7 +37,7 @@ You can read more here:
 * https://www.baeldung.com/mdc-in-log4j-2-logback
 
 Example from the logback docs:
-```
+```xml
 <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender"> 
   <layout>
     <Pattern>%X{first} %X{last} - %m%n</Pattern>
