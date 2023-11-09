@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="ejt-io"
-                  name="ericjturley-io" start-page="local-micronaut-logging.md">
+                  name="ericjturley-io" start-page="welcome.md">
 
     <toc-element topic="welcome.md"/>
     <toc-element toc-title="Local Development">
