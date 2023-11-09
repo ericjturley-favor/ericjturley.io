@@ -32,7 +32,8 @@ The zip distribution requires Java 17. Set that up first.
 
 
 ### HTTP files
-Note the files referenced on the last line: the `.http` request file, and the `.json` env file.
+> Note the files referenced on the last line: the `.http` request file, and the `.json` env file.
+{style=note}
 
 ## Reference commit
 [Reference commit](https://github.com/favordelivery/recommendations/commit/8cf22a9a5d80c17e5254c5ad4a6c6753b9aa380d).  
