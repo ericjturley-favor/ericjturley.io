@@ -7,10 +7,6 @@ The client can make assertions (tests).
 That client can also be run via a CLI.  
 So we can put it in a CI build, then.
 
-### References
-* [Overview of the HTTP client](https://github.com/favordelivery/intellij-idea-tips/blob/main/http-client/http-client.md)
-* [Official docs](https://www.jetbrains.com/help/idea/http-client-cli.html)
-
 ## GitHub Actions workflow
 
 The zip distribution requires Java 17. Set that up first.
@@ -39,3 +35,10 @@ The zip distribution requires Java 17. Set that up first.
 [Reference commit](https://github.com/favordelivery/recommendations/commit/8cf22a9a5d80c17e5254c5ad4a6c6753b9aa380d).  
 (NOTE: The SONAR-related secrets are not necessary)
 
+### References
+<seealso>
+    <category ref="other">
+        <a href="https://github.com/favordelivery/intellij-idea-tips/blob/main/http-client/http-client.md">IDEA's HTTP client tips</a>
+        <a href="https://www.jetbrains.com/help/idea/http-client-cli.html">IDEA's HTTP client CLI docs</a>
+    </category>
+</seealso>
